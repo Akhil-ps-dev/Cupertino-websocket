@@ -29,22 +29,31 @@ function App() {
   }, [socket]);
   return (
     <div className="App">
+      <h1><i>Tinker Chat</i></h1>
+      <div className="room">
+      <div className="room-content">
       <input
         placeholder="Room Number..."
         onChange={(event) => {
           setRoom(event.target.value);
         }}
       />
-      <button onClick={joinRoom}> Join Room</button>
+      <button onClick={joinRoom} class="btn btn-primary" > Join Room</button>
+      </div>
+      </div>
+      <div className="message">
       <input
         placeholder="Message..."
         onChange={(event) => {
           setMessage(event.target.value);
         }}
       />
-      <button onClick={sendMessage}> Send Message</button>
-      <h1> Message:</h1>
-      {messageReceived}
+      <button onClick={sendMessage} class="btn btn-primary"> Send Message</button>
+      </div>
+      <div className="output">
+      <h2> Message:</h2>
+      <h3>{messageReceived}</h3>
+      </div>
     </div>
   );
 }

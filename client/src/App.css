@@ -1,5 +1,49 @@
-.App {
+html{
+  background-color: powderblue;
+}
+
+h1{
   text-align: center;
+  font-size: 65px;
+  
+}
+.App {
+  
+  background-color: powderblue;
+  
+}
+.message{
+  text-align: center;
+  margin: 100px;
+  
+}
+
+.room{
+  background-color: aliceblue;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 25%;
+  padding: 25px;
+
+}
+
+.output{
+  text-align: center;
+  background-color: aliceblue;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 25%;
+}
+
+.room-content{
+  margin:25px;
+  margin: top 25px;
+  padding: 25px;
 }
 
 .App-logo {
