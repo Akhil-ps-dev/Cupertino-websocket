@@ -38,7 +38,9 @@ function App() {
           setRoom(event.target.value);
         }}
       />
+      <div className="button">
       <button onClick={joinRoom} class="btn btn-primary" > Join Room</button>
+      </div>
       </div>
       </div>
       <div className="message">
@@ -52,7 +54,7 @@ function App() {
       </div>
       <div className="output">
       <h2> Message:</h2>
-      <h3>{messageReceived}</h3>
+      <h5>{messageReceived}</h5>
       </div>
     </div>
   );
