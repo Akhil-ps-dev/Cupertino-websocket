@@ -31,3 +31,6 @@ npm init
 <h2>🍰 Contribution Guidelines:</h2>
 
 https://github.com/Gopps95 and https://github.com/PranavkrishnaVadhyar
+
+![Screenshot (110)](https://user-images.githubusercontent.com/86099193/196175423-8d17dea0-1a01-4a0f-8942-eed88d4344c9.png)
+
