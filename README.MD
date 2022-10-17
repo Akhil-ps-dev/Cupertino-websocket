@@ -25,7 +25,7 @@ npm init
 ```
 
 ```
- npm add express cors nodemon socket.io
+npm add express cors nodemon socket.io
 ```
 
 <h2>🍰 Contribution Guidelines:</h2>
